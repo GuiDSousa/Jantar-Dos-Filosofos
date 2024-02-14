@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.MainController">
+   <children>
+      <ImageView fitHeight="728.0" fitWidth="335.0" layoutX="947.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo1" fitHeight="113.0" fitWidth="113.0" layoutX="962.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/filosofo_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo2" fitHeight="113.0" fitWidth="113.0" layoutX="962.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/filosofo_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo3" fitHeight="113.0" fitWidth="113.0" layoutX="962.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/filosofo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo4" fitHeight="113.0" fitWidth="113.0" layoutX="962.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/filosofo_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo5" fitHeight="113.0" fitWidth="113.0" layoutX="962.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/filosofo_5.png" />
+         </image>
+      </ImageView>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENSAR :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="diminuirPensar_filosofo1" ellipsisString="" layoutX="1070.0" layoutY="65.0" mnemonicParsing="false" onAction="#diminuirPensar_filosofo1" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarPensar_filosofo1" layoutX="1140.0" layoutY="65.0" mnemonicParsing="false" onAction="#aumentarPensar_filosofo1" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirComer_filosofo1" layoutX="1070.0" layoutY="122.0" mnemonicParsing="false" onAction="#diminuirComer_filosofo1" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarComer_filosofo1" layoutX="1140.0" layoutY="122.0" mnemonicParsing="false" onAction="#aumentarComer_filosofo1" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirPensar_filosofo2" layoutX="1070.0" layoutY="192.0" mnemonicParsing="false" onAction="#diminuirPensar_filosofo2" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarPensar_filosofo2" layoutX="1140.0" layoutY="192.0" mnemonicParsing="false" onAction="#aumentarPensar_filosofo2" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirComer_filosofo2" layoutX="1070.0" layoutY="251.0" mnemonicParsing="false" onAction="#diminuirComer_filosofo2" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarComer_filosofo2" layoutX="1140.0" layoutY="251.0" mnemonicParsing="false" onAction="#aumentarComer_filosofo2" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirPensar_filosofo3" layoutX="1070.0" layoutY="322.0" mnemonicParsing="false" onAction="#diminuirPensar_filosofo3" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarPensar_filosofo3" layoutX="1140.0" layoutY="322.0" mnemonicParsing="false" onAction="#aumentarPensar_filosofo3" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirComer_filosofo3" layoutX="1070.0" layoutY="384.0" mnemonicParsing="false" onAction="#diminuirComer_filosofo3" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarComer_filosofo3" layoutX="1140.0" layoutY="384.0" mnemonicParsing="false" onAction="#aumentarComer_filosofo3" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirPensar_filosofo4" layoutX="1070.0" layoutY="452.0" mnemonicParsing="false" onAction="#diminuirPensar_filosofo4" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarPensar_filosofo4" layoutX="1140.0" layoutY="452.0" mnemonicParsing="false" onAction="#aumentarPensar_filosofo4" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirComer_filosofo4" layoutX="1070.0" layoutY="512.0" mnemonicParsing="false" onAction="#diminuirComer_filosofo4" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarComer_filosofo4" layoutX="1140.0" layoutY="512.0" mnemonicParsing="false" onAction="#aumentarComer_filosofo4" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirPensar_filosofo5" layoutX="1070.0" layoutY="585.0" mnemonicParsing="false" onAction="#diminuirPensar_filosofo5" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarPensar_filosofo5" layoutX="1140.0" layoutY="585.0" mnemonicParsing="false" onAction="#aumentarPensar_filosofo5" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="diminuirComer_filosofo5" layoutX="1070.0" layoutY="642.0" mnemonicParsing="false" onAction="#diminuirComer_filosofo5" style="-fx-background-color: #5140ce;" text="&lt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="aumentarComer_filosofo5" layoutX="1140.0" layoutY="642.0" mnemonicParsing="false" onAction="#aumentarComer_filosofo5" style="-fx-background-color: #5140ce;" text="&gt;" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="pausarRetomar_filosofo1" layoutX="1175.0" layoutY="65.0" mnemonicParsing="false" onAction="#pausarRetomar_filosofo1" style="-fx-background-color: #5140ce;" text="PAUSAR/&#10;RETOMAR" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pausarRetomar_filosofo2" layoutX="1175.0" layoutY="194.0" mnemonicParsing="false" onAction="#pausarRetomar_filosofo2" style="-fx-background-color: #5140ce;" text="PAUSAR/&#10;RETOMAR" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pausarRetomar_filosofo3" layoutX="1175.0" layoutY="327.0" mnemonicParsing="false" onAction="#pausarRetomar_filosofo3" style="-fx-background-color: #5140ce;" text="PAUSAR/&#10;RETOMAR" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pausarRetomar_filosofo4" layoutX="1175.0" layoutY="455.0" mnemonicParsing="false" onAction="#pausarRetomar_filosofo4" style="-fx-background-color: #5140ce;" text="PAUSAR/&#10;RETOMAR" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pausarRetomar_filosofo5" layoutX="1175.0" layoutY="585.0" mnemonicParsing="false" onAction="#pausarRetomar_filosofo5" style="-fx-background-color: #5140ce;" text="PAUSAR/&#10;RETOMAR" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="estado_filosofo1" layoutX="979.0" layoutY="142.0" prefHeight="25.0" prefWidth="84.0" text="FILOSOFO 1" textFill="#5140ce">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="473.0" layoutY="374.0" radius="175.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="velocidadePensar_f1" layoutX="1105.0" layoutY="65.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="velocidadeComer_f1" layoutX="1105.0" layoutY="123.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="#5140ce" layoutX="1070.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMER :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENSAR :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="velocidadePensar_f2" layoutX="1105.0" layoutY="192.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="velocidadeComer_f2" layoutX="1105.0" layoutY="251.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="#5140ce" layoutX="1070.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMER :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENSAR :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMER :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="velocidadePensar_f3" layoutX="1105.0" layoutY="322.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="velocidadeComer_f3" layoutX="1105.0" layoutY="384.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENSAR :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMER :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="velocidadePensar_f4" layoutX="1105.0" layoutY="452.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="velocidadeComer_f4" layoutX="1105.0" layoutY="512.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENSAR :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#5140ce" layoutX="1069.0" layoutY="631.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMER :" wrappingWidth="77.3665771484375">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="velocidadePensar_f5" layoutX="1105.0" layoutY="585.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="velocidadeComer_f5" layoutX="1105.0" layoutY="642.0" prefHeight="26.0" prefWidth="28.0" style="-fx-background-color: #ffffff;" text="1">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="estado_filosofo2" layoutX="979.0" layoutY="275.0" prefHeight="25.0" prefWidth="84.0" text="FILÓSOFO 2" textFill="#5140ce">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="estado_filosofo3" layoutX="979.0" layoutY="406.0" prefHeight="25.0" prefWidth="84.0" text="FILÓSOFO 3" textFill="#5140ce">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="estado_filosofo4" layoutX="979.0" layoutY="535.0" prefHeight="25.0" prefWidth="84.0" text="FILÓSOFO 4" textFill="#5140ce">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="estado_filosofo5" layoutX="979.0" layoutY="663.0" prefHeight="25.0" prefWidth="84.0" text="FILÓSOFO 5" textFill="#5140ce">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="720.0" fitWidth="956.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo0" fitHeight="89.0" fitWidth="94.0" layoutX="382.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" rotate="161.6">
+         <image>
+            <Image url="@../images/garfo_3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="iniciar" layoutX="41.0" layoutY="36.0" mnemonicParsing="false" onAction="#botaoIniciar" prefHeight="54.0" prefWidth="127.0" style="-fx-background-color: #5140CE;" text="INICIAR &#10;SIMULAÇÃO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="reset" layoutX="42.0" layoutY="104.0" mnemonicParsing="false" onAction="#reset" prefHeight="23.0" prefWidth="127.0" style="-fx-background-color: #d41350;" text="RESET" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="garfo1" fitHeight="89.0" fitWidth="94.0" layoutX="477.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" rotate="-168.1">
+         <image>
+            <Image url="@../images/garfo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo4" fitHeight="89.0" fitWidth="94.0" layoutX="304.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true" rotate="110.0">
+         <image>
+            <Image url="@../images/garfo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo2" fitHeight="89.0" fitWidth="94.0" layoutX="560.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true" rotate="-104.0">
+         <image>
+            <Image url="@../images/garfo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo3" fitHeight="89.0" fitWidth="94.0" layoutX="431.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" rotate="54.2">
+         <image>
+            <Image url="@../images/garfo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balao_f2" fitHeight="150.0" fitWidth="200.0" layoutX="635.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/balao_vazio_dir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balao_f3" fitHeight="150.0" fitWidth="200.0" layoutX="755.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/balao_vazio_dir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balao_f1" fitHeight="150.0" fitWidth="200.0" layoutX="473.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/balao_vazio_dir.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balao_f5" fitHeight="150.0" fitWidth="200.0" layoutX="169.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/balao_vazio_esq.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balao_f4" fitHeight="150.0" fitWidth="200.0" layoutX="84.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/balao_vazio_esq.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato_f1" fitHeight="70.0" fitWidth="64.0" layoutX="441.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/prato_vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato_f2" fitHeight="70.0" fitWidth="64.0" layoutX="545.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/prato_vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato_f3" fitHeight="70.0" fitWidth="64.0" layoutX="570.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/prato_vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato_f4" fitHeight="70.0" fitWidth="64.0" layoutX="339.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/prato_vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prato_f5" fitHeight="70.0" fitWidth="64.0" layoutX="335.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/prato_vazio.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="735.0" fitWidth="287.0" layoutX="921.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/barra1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="735.0" fitWidth="287.0" layoutX="1244.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../images/barra1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="369.0" layoutX="923.0" layoutY="690.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/barra2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="369.0" layoutX="921.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../images/barra2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="460.0" layoutX="253.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/FILOSOFOS-24-10-2023.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="stopMusic" layoutX="42.0" layoutY="655.0" mnemonicParsing="false" onAction="#stopAudio" prefHeight="33.0" prefWidth="97.0" style="-fx-background-color: #5140CE;" text="MÚSICA" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
